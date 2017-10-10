@@ -2,3 +2,17 @@
 /Makefile
 /nbproject/
 /core
+*.ilk
+*.exe
+*.log
+*.obj
+*.pdb
+*.tlog
+.vs/Assignment2-Git/v15/.suo
+*.db
+*.opendb
+*.ipch
+*.sln
+*.vcxproj
+*.filters
+*.idb
