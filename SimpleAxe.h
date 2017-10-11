@@ -15,7 +15,7 @@
 
 class SimpleAxe : public Weapon {
 public:
-	SimpleAxe() : Weapon("Simple Axe", 60.0);
+	SimpleAxe() : Weapon("Simple Axe", 60.0) {}
 	virtual ~SimpleAxe() {};
 	virtual double hit(double armor);
 

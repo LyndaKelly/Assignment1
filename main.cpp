@@ -40,10 +40,16 @@ int main(int argc, char** argv) {
     delete(weapon);
 
 	weapon = WeaponFactory::getInstance()->getWeapon("axe");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
 	weapon = WeaponFactory::getInstance()->getWeapon("crazy sword");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
 	weapon = WeaponFactory::getInstance()->getWeapon("slippery sword");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
     return 0;
 }
