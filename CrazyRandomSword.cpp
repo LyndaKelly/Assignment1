@@ -2,7 +2,7 @@
 File: CrazyRandomSword.cpp
 Created Wednesday, October 11th, 2017*/
 
-#include "CrazyRandomSword"
+#include "CrazyRandomSword.h"
 
 double CrazyRandomSword::hit(double armor) {
 	int armorIgnore = rand() % (armor / 2);
