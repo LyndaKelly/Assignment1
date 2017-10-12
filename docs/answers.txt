@@ -38,3 +38,9 @@ Other examples are virtual functions and function overriding.
 
 III) Encapsulation is using access modifiers (public, private, and protected) to hide details from users; i.e. separating interface
 from implementaion
+
+7) The prototype uses polymorphism. In main.cpp, the pointer to the Weapon
+class, which is the parent class, can be used to point to any of the child classes. Which one in particular is determined at runtime, and this a feature of
+polymorphism. It also uses encapsulation, as the WeaponFactory class is used
+to create new instances instead of interacting with the classes directly in
+main. 
